@@ -8,8 +8,8 @@ import (
     "time"
     "strings"
 
-    // "github.com/jackc/pgx/v5/pgxpool"
-    "github.com/joho/godotenv/autoload" // โหลด .env ให้เองถ้ามีไฟล์ (ในเครื่อง) บน Render ไม่มีไฟล์ก็เงียบ
+    "github.com/jackc/pgx/v5/pgxpool"
+    //"github.com/joho/godotenv/autoload" // โหลด .env ให้เองถ้ามีไฟล์ (ในเครื่อง) บน Render ไม่มีไฟล์ก็เงียบ
 
     "moviehub/auth"
     "moviehub/handler"
